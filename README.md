@@ -1,4 +1,24 @@
-![Background Mean Frame](results/Pasted image (2).png)
+<h2 align="center"><b>Pipeline Visualization: From Detection to Inpainting</b></h2>
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><b>1. Input Sequence</b></td>
+      <td align="center"><b>2. Alpha Blending Stage</b></td>
+      <td align="center"><b>3. Background Reconstruction</b></td>
+    </tr>
+    <tr>
+      <td><img src="results/input.png" width="300" alt="Original Input Frame"></td>
+      <td><img src="results/during_remove.png" width="300" alt="Blending Process"></td>
+      <td><img src="results/removed.png" width="300" alt="Final Result"></td>
+    </tr>
+  </table>
+</p>
+
+<p align="center">
+  <i>This gallery demonstrates the transition from the raw input, through the mask-driven alpha blending process, to the final frame where the moving object is successfully removed.</i>
+</p>
+
 # Classical Motion Detection & Background Modeling
 
 A from-scratch implementation of a motion detection pipeline using classical Computer Vision techniques. This project focuses on the fundamental mathematics of image processing, implementing core algorithms like Mahalanobis distance, morphological operations, and connected components without relying on high-level OpenCV wrappers for the logic.
