@@ -1,4 +1,3 @@
-```markdown
 # Classical Motion Detection & Background Modeling
 
 A from-scratch implementation of a motion detection pipeline using classical Computer Vision techniques. This project focuses on the fundamental mathematics of image processing, implementing core algorithms like Mahalanobis distance, morphological operations, and connected components without relying on high-level OpenCV wrappers for the logic.
@@ -14,7 +13,6 @@ A from-scratch implementation of a motion detection pipeline using classical Com
 
 ## Project Structure
 
-```text
 motion-detection/
 ├── src/
 │   ├── main.py           # Pipeline orchestration & Alpha blending
@@ -25,7 +23,7 @@ motion-detection/
 ├── requirements.txt      # Project dependencies
 └── README.md
 
-```
+
 
 ## 📊 The Pipeline
 
