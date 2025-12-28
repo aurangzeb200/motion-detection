@@ -1,3 +1,4 @@
+![Background Mean Frame](results/Pasted image (2).png)
 # Classical Motion Detection & Background Modeling
 
 A from-scratch implementation of a motion detection pipeline using classical Computer Vision techniques. This project focuses on the fundamental mathematics of image processing, implementing core algorithms like Mahalanobis distance, morphological operations, and connected components without relying on high-level OpenCV wrappers for the logic.
