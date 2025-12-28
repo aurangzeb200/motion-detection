@@ -2,7 +2,7 @@
 
 A from-scratch implementation of a motion detection pipeline using classical Computer Vision techniques. This project focuses on the fundamental mathematics of image processing, implementing core algorithms like Mahalanobis distance, morphological operations, and connected components without relying on high-level OpenCV wrappers for the logic.
 
-## Features
+## 🚀 Key Features
 
 - **Custom PNG Encoder:** Implemented manual PNG chunk packing (IHDR, IDAT, CRC) using `struct` and `zlib`.
 - **Statistical Background Modeling:** Builds a model using temporal Mean and Variance of initial frames.
@@ -11,8 +11,9 @@ A from-scratch implementation of a motion detection pipeline using classical Com
 - **BFS-based Connected Components:** Custom implementation of 4/8-connectivity labeling to filter out noise based on area.
 - **Alpha-Blended Object Removal:** Seamlessly removes detected motion by blending background model data back into the sequence.
 
-## Project Structure
+## 🛠️ Project Structure
 
+```text
 motion-detection/
 ├── src/
 │   ├── main.py           # Pipeline orchestration & Alpha blending
@@ -22,7 +23,7 @@ motion-detection/
 │   └── io_utils.py       # Custom PNG writer and video utilities
 ├── requirements.txt      # Project dependencies
 └── README.md
-
+```
 
 
 ## 📊 The Pipeline
